@@ -18,7 +18,10 @@ goals.  The analysis and conclusions seeks to improve success of future fundrais
 To get started I reviewed the data set including each field, its field type, and number of  <br>
 campaigns. I made two fields from the “category and subcategory” field using the text to column <br>
 function. Also, to make use of the launch date and the deadline date which were Unix timestamps, I had  <br>
-to convert the data into a standard date format using formulas. See ![Screenshot_Unix_TS_to_std_date.png](https://github.com/Robertfnicholson/Kickstarter-analysis/blob/e75e5ea905fea4ce166c36b43dd01217c8fb2373/Screenshot_Unix_TS_to_std_date.png)  <br>
+to convert the data into a standard date format using formulas. See screenshot below.  <br>
+<br>
+![Screenshot_Unix_TS_to_std_date.png](https://github.com/Robertfnicholson/Kickstarter-analysis/blob/e75e5ea905fea4ce166c36b43dd01217c8fb2373/Screenshot_Unix_TS_to_std_date.png)  <br>
+
 I also used pivot tables and pivot charts to manipulate and to view the data in a particular <br>
 way. This included filtering and sorting the data. I also used the freeze panes function to improve  <br>
 viewing of the data. I used conditional formatting to provide improved visual information for the reader.  <br>
@@ -29,7 +32,9 @@ understand the data better and developed box plots to compare distributions of d
 
 In this analysis I developed a pivot table of the data and then filtered the data to show only theater  <br>
 campaigns and filtering outcomes of just successful, failed and canceled campaigns and filtering out live  <br>
-campaigns. I then built a line graph of the outcomes by month, ![Theater_Outcomes_vs_Launch.png](https://github.com/Robertfnicholson/Kickstarter-analysis/blob/e75e5ea905fea4ce166c36b43dd01217c8fb2373/Theater_Outcomes_vs_Launch.png).   </p>
+campaigns. I then built a line graph of the outcomes by month. See graph below.  
+
+![Theater_Outcomes_vs_Launch.png](https://github.com/Robertfnicholson/Kickstarter-analysis/blob/e75e5ea905fea4ce166c36b43dd01217c8fb2373/Theater_Outcomes_vs_Launch.png).   </p>
 
 ### Analysis of Outcomes Based on Goals
 
@@ -37,7 +42,9 @@ In this analysis I developed a table using the countifs() function to show the c
 and canceled campaigns for given dollar amount ranges of campaign goals. I then added calculation  <br>
 fields that provide the percentage outcome for each given dollar amount range of campaign goals.  <br>
 Finally, I developed a line chart displaying each of the outcomes based on the dollar amount ranges for  <br>
-the x axis and percentage on the y axis, ![Outcomes_vs_Goals.png](https://github.com/Robertfnicholson/Kickstarter-analysis/blob/e75e5ea905fea4ce166c36b43dd01217c8fb2373/Outcomes_vs_Goals.png).  </p>
+the x axis and percentage on the y axis. See graph below.
+
+![Outcomes_vs_Goals.png](https://github.com/Robertfnicholson/Kickstarter-analysis/blob/e75e5ea905fea4ce166c36b43dd01217c8fb2373/Outcomes_vs_Goals.png).  </p>
 
 ### Challenges and Difficulties Encountered
 
